@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jova Patike</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header>
+
+<div class="logo">Jova Patike</div>
+
+<input type="text" id="search" placeholder="Pretraži patike...">
+
+<div class="cart">
+🛒 <span id="cart-count">0</span>
+</div>
+
+</header>
+
+
+<section class="hero">
+
+<h1>Nove Patike 2026</h1>
+<p>Najbolji modeli po najboljoj ceni</p>
+
+</section>
+
+
+<section class="filters">
+
+<select id="brandFilter">
+<option value="">Svi brendovi</option>
+<option>Nike</option>
+<option>Adidas</option>
+<option>New Balance</option>
+</select>
+
+<select id="priceFilter">
+<option value="">Cena</option>
+<option value="10000">do 10.000</option>
+<option value="20000">do 20.000</option>
+<option value="30000">do 30.000</option>
+</select>
+
+</section>
+
+
+<section class="products" id="products"></section>
+
+
+<script src="products.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
